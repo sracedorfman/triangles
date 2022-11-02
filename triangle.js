@@ -17,8 +17,8 @@ class Triangle {
       translate(this.posX, this.posY);
       triangle(
         0, 0,
-        this.right ? this.dim : -this.dim, 0,
-        0, this.up ? -this.dim : this.dim
+        this.right ? this.dim : -1*this.dim, 0,
+        0, this.up ? -1*this.dim : this.dim
       );
     pop();
   }
